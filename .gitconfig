@@ -1,0 +1,10 @@
+[user]
+	name = maxwiseman
+	email = max@maxwiseman.io
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFtNrY86ju613a3eolA/lcBi95wjKUJoolNB1yy+BwsY
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
